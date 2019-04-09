@@ -1,0 +1,140 @@
+
+                                  /*Setup*/
+body{
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h2, h3, h4{
+  margin: 0;
+  padding: 10px;
+}
+                                  /*Header*/
+header{
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  background-color: black;
+}
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+
+}
+
+nav{
+  text-align: right;
+  flex-grow: 1;
+
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+
+}
+
+.links a{
+  color: seashell;
+  text-decoration: underline;
+}
+                                /*Main*/
+.main{
+  width: 1200px;
+  padding-top: 69px;
+  margin: auto;
+}
+
+                              /*Mission*/
+#mission{
+  width: 1200px;
+  height: 700px;
+  background-image: url(../resources/images/img-mission-background.jpg);
+  padding-top: 69px;
+}
+
+.our-mission{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+                            /*Featured Tea*/
+
+#featured-tea{
+  width: 1000px;
+  height: 700px;
+  padding-top: 69px;
+  margin: auto;
+  text-align: center;
+}
+
+.baby-images{
+  padding: 5px;
+}
+
+.baby-images img{
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+.baby-images span{
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+}
+                            /*Locations*/
+#locations{
+  margin: auto;
+  height: 500px;
+  width: 1200px;
+  background-image: url(../resources/images/img-locations-background.jpg);
+  padding-top: 69px;
+  text-align: center;
+}
+.box{
+  background-color: black;
+  display: block;
+  text-align: center;
+  opacity: 1;
+  margin: 15px 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.box span{
+  margin: 5px;
+  padding-top: 40px;
+}
+
+                            /*Footer*/
+
+.footer{
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  height: 200px;
+}
+
+#copyright{
+  text-align: left;
+  margin-left: 20px;
+}
